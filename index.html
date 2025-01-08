@@ -13,6 +13,48 @@
             height: 400px;
             object-fit: cover;
         }
+        body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f4f4f9; /* Light background for the whole page */
+        color: #333; /* Dark font color for better readability */
+    }
+
+    /* Navbar styling */
+    .navbar {
+        background-color: #2c3e50; /* Darker background for the navbar */
+    }
+
+    .navbar-brand {
+        color: #fff !important;
+        font-weight: bold;
+    }
+
+    .navbar-nav .nav-link {
+        color: #fff !important;
+    }
+
+    .navbar-nav .nav-link:hover {
+        color: #ddd !important;
+    }
+
+    .navbar-toggler-icon {
+        background-color: #fff;
+    }
+
+    .row .col-md-6 .row.g-0 {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .row .col-md-6 .row.g-0:hover {
+        transform: translateY(-10px); /* Move card up slightly */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    }
+
+    .icon-link-hover:hover {
+        color: #007bff;
+    }
+
+
     </style>
 </head>
 
@@ -155,7 +197,7 @@
     
     <section id="booking" class="bg-light py-5">
       <div class="container">
-        <h2 class="text-center mb-4">Book Your tour</h2>
+        <h2 class="text-center mb-4" style="background-color: cornflowerblue;">Book Your tour</h2>
         <form action="https://www.trivago.in/" method="GET" target="_blank">
           <div class="row mb-3">
             <div class="col-md-6">
